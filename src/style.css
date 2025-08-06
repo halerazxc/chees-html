@@ -35,7 +35,7 @@ button {
 /* styles */
 
 header {
-  background-image: url("/src/assets/main.png");
+  background-image: url("./src/assets/main.png");
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -273,7 +273,7 @@ main {
 }
 
 .stages__item {
-  background-image: url("/src/assets/Frame 48095630.png");
+  background-image: url("./src/assets/Frame 48095630.png");
   background-size: cover;
   background-position: center;
   padding: 20px 20px 20px 32px;
@@ -802,7 +802,7 @@ footer h1 {
 }
 
 .stages--mob__slide-group {
-  background-image: url("/src/assets/Frame 48095630.png");
+  background-image: url("./src/assets/Frame 48095630.png");
   background-size: cover;
   background-position: center;
   padding: 16px 34px;

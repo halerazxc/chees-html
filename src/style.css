@@ -527,6 +527,7 @@ footer h1 {
   font-size: 20px;
   line-height: 120%;
   margin-bottom: 16px;
+  font-weight: 700;
 }
 
 .event-table--mob {
@@ -640,6 +641,7 @@ footer h1 {
 
   .event-rows-old-price {
     display: flex;
+    font-weight: 700;
   }
 
   .running-line--tournament {

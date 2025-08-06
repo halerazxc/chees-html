@@ -414,7 +414,6 @@ main {
   cursor: pointer;
 }
 
-
 .running-line--tournament {
   margin-top: 140px;
   background-color: #f54932;
@@ -443,7 +442,7 @@ main {
 
 .stages--mob__arrow--prev[disabled] circle,
 .stages--mob__arrow--next[disabled] circle {
-  fill: #ccc; 
+  fill: #ccc;
 }
 
 .stages--mob__arrow--prev[disabled] path,
@@ -477,6 +476,14 @@ footer h1 {
 }
 
 .stages--mob {
+  display: none;
+}
+
+.main-content__link-mob {
+  display: none;
+}
+
+.event-rows-old-price {
   display: none;
 }
 
@@ -526,7 +533,7 @@ footer h1 {
   display: none;
 }
 
-.main-tournaments__nav--mob{
+.main-tournaments__nav--mob {
   display: none;
 }
 
@@ -535,7 +542,7 @@ footer h1 {
     overflow: hidden;
   }
 
-    .stages__plane {
+  .stages__plane {
     display: none;
   }
 }
@@ -553,8 +560,6 @@ footer h1 {
     align-items: center;
     text-align: center;
   }
-
-
 
   .main-content__text--reverse {
     display: flex;
@@ -633,19 +638,22 @@ footer h1 {
     background-position: bottom;
   }
 
-  .running-line--tournament{
+  .event-rows-old-price {
+    display: flex;
+  }
+
+  .running-line--tournament {
     margin-top: 100px;
   }
 
-  .main-tournaments__nav{
+  .main-tournaments__nav {
     display: none;
   }
 
-    .main-tournaments__nav--mob{
+  .main-tournaments__nav--mob {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-
   }
 
   .main-tournaments {
@@ -653,11 +661,11 @@ footer h1 {
     margin-bottom: 0;
   }
 
-    .main-stages__text {
+  .main-stages__text {
     margin-top: 120px;
   }
 
-  .event-table{
+  .event-table {
     margin-bottom: 40px;
   }
   .running-line__text {
@@ -720,7 +728,7 @@ footer h1 {
     display: none;
   }
 
-  .main-content__link-mob{
+  .main-content__link-mob {
     display: flex;
     text-align: center;
     margin-top: 40px;
@@ -773,7 +781,7 @@ footer h1 {
     font-size: 18px;
   }
 
-    .main-content__link-mob{
+  .main-content__link-mob {
     display: flex;
     text-align: start;
     margin-top: 40px;
@@ -884,7 +892,6 @@ footer h1 {
   min-width: 100px;
   margin: 0 16px;
 }
-
 
 .stages--mob__pagination-dot {
   width: 12px;
